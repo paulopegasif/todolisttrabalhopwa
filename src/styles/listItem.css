@@ -1,0 +1,24 @@
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.list-group .list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: #eaeaea;
+    background-color: #252525;
+}
+
+.list-group-item .form-check-label {
+    padding-left: 1em;
+    min-width: auto;
+}
+
+.list-group-item-tagdelete .badge.bg-primary.rounded-pill {
+    margin-right: .8em;
+}

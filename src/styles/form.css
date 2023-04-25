@@ -1,0 +1,28 @@
+.input-tarefa {
+    display: flex;
+    justify-content: center;
+}
+.btn.btn-primary.me-md-2 {
+    padding: 1em;
+}
+
+.form-floating{
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+    padding: 0;
+    width: 100%;
+}
+
+.input-tarefa .form-control {
+    margin-right: 1em;
+    border: none;
+    background-color: #2e2e2e;
+}
+
+.input-tarefa .form-control:focus {
+    border: none;
+    background-color: #0d0d0d;
+    color: #eaeaea;
+}
+
